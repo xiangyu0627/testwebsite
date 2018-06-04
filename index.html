@@ -7,30 +7,13 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./grid-gallery.css">
   <title>Eat365</title>
 </head>
 
 <body onload="load('home')">
   <div class="header" id="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-8 header-left-wrapper">
-          <h1 class="header-left">EAT365 Restaurant</h1>
-        </div>
-        <div class="col-4 header-right-wrapper">
-          <div class="header-right">
-            <div class="addthis_inline_share_toolbox"></div>
-            <p>
-              345 WEST 34TH ST. NEW YORK, NY
-            </p>
-            <p>
-              (203) 555 - 7890
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="container-fluid primary-color">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark col-12 primary-color">
@@ -47,6 +30,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" onclick="load('menu')">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="load('gallery')">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" onclick="load('info')">Hours & Location</a>
@@ -69,11 +55,12 @@
       </div>
     </div>
   </div>
-  <div class="content container" id="main">
+  <div class="content container-fluid" id="main">
   </div>
-  <div class="footer container" id="footer">
+  <div class="footer container-fluid" id="footer">
     <div class="row">
-      <div class="col-12 footer-wrapper margin-top-20">
+      <div class="col-12 footer-wrapper">
+        <div class="addthis_inline_share_toolbox"></div>
         <div class="footer">
           EAT365 | (678) 705-9539
         </div>
@@ -86,6 +73,7 @@
       </div>
     </div>
   </div>
+  <script src="./scripts/animation.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

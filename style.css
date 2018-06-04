@@ -1,3 +1,33 @@
+body {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/background.jpeg");
+  background-attachment: fixed;
+}
+
+.header .container-fluid {
+  position: fixed;
+  z-index: 100;
+}
+
+.content {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#main {
+  padding-top: 35px;
+}
+
+#main .container-fluid {
+  background: #fff;
+  padding-top: 20px;
+  min-height: 800px;
+}
+
+#footer {
+  background: #fff;
+  padding-bottom: 30px;
+}
+
 .header-left-wrapper {
   display: flex;
   align-items: center; 
@@ -31,7 +61,7 @@
 }
 
 .primary-color {
-  background-color: #e31e26;
+  background-color: #101010;
 }
 
 .margin-top-20 {
@@ -80,7 +110,7 @@
 }
 
 .nav-item:hover {
-  background-color: #FF4C4C;
+  background-color: #2d2d2d;
 }
 
 .divider {
@@ -113,6 +143,14 @@
 .custom-row {
  padding: 0px;
  margin: 0px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
 }
 
 .hours-wrapper .title {
@@ -200,4 +238,64 @@
 
 .about-content {
   margin-top: 10px;
+}
+
+.home-wrapper .head-wrapper {
+  text-align: center;
+  color: #FFF;
+}
+
+.home-wrapper .head-wrapper .head-title {
+  margin-top: 18%;
+  font-size: 49px;
+}
+
+.home-wrapper .head-wrapper .head-desc {
+  margin-top: 2%;
+  font-size: 17px;
+}
+
+.home-wrapper .head-wrapper .head-btn {
+  max-width: 200px;
+  border: 2px solid #FFF;
+  color: #FFF !important;
+  font-size: 15px;
+  margin-top: 2%;
+  margin-bottom: 18%;
+  padding: 11px 0px;
+}
+
+.home-wrapper .head-wrapper .head-btn:hover {
+  color: #FFF !important;
+  text-decoration: none !important;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.section-wrapper {
+  text-align: center;
+  color: #FFF;
+  border-top: #e31e26 20px solid;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.section-background {
+  color: #000;
+  background: #FFF;
+}
+
+.section-wrapper .section-title {
+  font-size: 50px;
+}
+
+.section-wrapper .section-content {
+  margin-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 30px;
+}
+
+.gallery-title {
+  font-size: 30px;
+  text-align: center;
 }
