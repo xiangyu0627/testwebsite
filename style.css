@@ -170,6 +170,7 @@ body {
   margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .location-wrapper {
@@ -180,8 +181,21 @@ body {
   text-align: center;
 }
 
-#home .map-responsive {
-  padding-bottom: 45%;
+.home-wrapper .map-responsive {
+  padding-bottom: 38%;
+}
+
+.home-wrapper .title {
+  text-align: left;
+  padding-top: 16px;
+}
+
+.home-wrapper .sub-title {
+  text-align: left;
+}
+
+.info.col-8.align-left {
+  margin-left: -30px;
 }
 
 .specials-wrapper {
